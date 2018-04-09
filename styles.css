@@ -7,14 +7,71 @@ body{
 
 }
 
-.phone-screen{
+.phone{
   max-width:300px;
   margin:10rem auto;
 }
 
+.phone-top{
+  height: 1.2rem;
+  background-color: black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+}
+
+.phone-bottom{
+  height: 2rem;
+  background-color: black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+}
+
+.fingerprint{
+  height: 1rem;
+  width: 17%;
+  border: 1px solid silver;
+  border-radius: 5px;
+  background-color: rgb(4, 4, 5);
+  position: absolute;
+  top: .3rem;
+  left: 130px;
+}
+
+.camera{
+  width: 3.5%;
+  height: .5rem;
+  border-radius: 50%;
+  background-color: rgb(41, 43, 45);
+  position: absolute;
+  top: 4px;
+  left: 5rem;
+}
+
+.speaker{
+  width:20%;
+  margin:0 auto;
+  border-top: 2px solid;
+  border-radius: 5px;
+  height:.4rem;
+  background-color:rgb(41, 43, 45);
+  position: relative;
+}
+
+.grills{
+  display: inline-block;
+  height: .2rem;
+  width: 10%;
+  border-radius: 50%;
+  background-color: black;
+  margin-bottom: .6rem;
+  margin-left: .13rem;
+}
+
 .number-display{
   height:10rem;
-  background-color: black;
+  background-color: rgb(4, 4, 5);
 }
 
 .wrapper{
@@ -34,10 +91,21 @@ body{
   padding:1.5rem 1rem;
   font-size: 1.5rem;
   width: 100%;
+  border: none;
+  color: #f4f4f4;
+  background-color: #131519;
+}
+
+#Numbtn4,#Numbtn5,#Numbtn6{
+  border-bottom: 1px solid #131519;
 }
 
 .opBtn{
   width: 100%;
   font-size: 1.5rem;
   padding:1rem;
+  border:none;
+  border-bottom: 1px solid #282b30;
+  color: #f4f4f4;
+  background-color: #282b30;
 }
