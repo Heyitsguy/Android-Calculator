@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+
+}
+
+.phone-screen{
+  max-width:300px;
+  margin:10rem auto;
+}
+
+.number-display{
+  height:10rem;
+  background-color: black;
+}
+
+.wrapper{
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.four{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-column: 4/5;
+  grid-row: 1/5;
+}
+
+.numBtn{
+  padding:1.5rem 1rem;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.opBtn{
+  width: 100%;
+  font-size: 1.5rem;
+  padding:1rem;
+}
