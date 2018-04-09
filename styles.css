@@ -15,16 +15,16 @@ body{
 .phone-top{
   height: 1.2rem;
   background-color: black;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   position: relative;
 }
 
 .phone-bottom{
   height: 2rem;
   background-color: black;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   position: relative;
 }
 
@@ -52,7 +52,7 @@ body{
 .speaker{
   width:20%;
   margin:0 auto;
-  border-top: 2px solid;
+  border-top: 4px solid;
   border-radius: 5px;
   height:.4rem;
   background-color:rgb(41, 43, 45);
@@ -72,6 +72,14 @@ body{
 .number-display{
   height:10rem;
   background-color: rgb(4, 4, 5);
+}
+
+.output{
+  font-size: 3rem;
+  direction: rtl;
+  color: #f4f4f4;
+  padding-top: 4rem;
+  padding-right: 1rem;
 }
 
 .wrapper{
