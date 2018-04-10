@@ -4,12 +4,13 @@
 }
 
 body{
-
+  background-image: url("desk.jpeg");
 }
 
 .phone{
   max-width:300px;
   margin:10rem auto;
+  box-shadow: -7px 8px 5px 0px rgba(0,0,0,0.75);
 }
 
 .phone-top{
@@ -23,8 +24,8 @@ body{
 .phone-bottom{
   height: 2rem;
   background-color: black;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   position: relative;
 }
 
@@ -71,7 +72,10 @@ body{
 
 .number-display{
   height:10rem;
-  background-color: rgb(4, 4, 5);
+  /* background-color: rgb(4, 4, 5); */
+  background-color: #18191c;
+  overflow:hidden;
+  padding-right: 1rem;
 }
 
 .output{

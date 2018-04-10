@@ -42,7 +42,8 @@ document.querySelector("#plus-btn").addEventListener("click",function(){
   display.innerHTML = value;
 });
 document.querySelector("#equal-btn").addEventListener("click",function(){
-  value = eval(value);
+  var num = Math.round(eval(value)*10000000)/10000000;
+  value = num.toString();
   display.innerHTML = value;
 });
 document.querySelector("#Numbtn0").addEventListener("click",function(){
@@ -64,4 +65,16 @@ document.querySelector("#multiply-btn").addEventListener("click",function(){
 document.querySelector("#divide-btn").addEventListener("click",function(){
   value += "/";
   display.innerHTML = value;
+});
+document.querySelector("#delete-btn").addEventListener("click",function(){
+  if(value.length === 1){
+    value = "";
+    display.innerHTML = "";
+  }else{
+    var arr = value.split("");
+    var popped =arr.pop();
+    value = arr.join("");
+    display.innerHTML = value;
+  }
+
 });
